@@ -6,14 +6,23 @@ function flipResult() {
     return Math.random() >= 0.5 ? 'heads' : 'tails';
 }
 
+function animation() {
+
+}
+
 function flipCoin() {
     const newFace = flipResult();
 
-    console.log("Hi");
-    coin.src = `resources/${newFace}.svg`;
+    coin.classList.add('flip');
+
+    setTimeout(()=> {
+        coin.src = `resources/${newFace}.svg`;
+        face.textContent = newFace;
+        
+        coin.classList.remove('flip');
+    }, 1000);
 
     
-    face.textContent = newFace;
 }
 
 coin.addEventListener('click', flipCoin);
