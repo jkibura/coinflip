@@ -46,3 +46,9 @@ button {
     margin: 2rem;
     border-radius: 10px;
 }
+
+.author-info {
+    margin-top: 34px;
+    font-size: 14px;
+    color:#91abb6;
+}

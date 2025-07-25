@@ -41,4 +41,4 @@
 
 ---
 
-If any conventions or workflows are unclear, please request clarification or examples from the project maintainer.
+If any conventions or workflows are unclear, please request clarification or examples from the project maintainer
